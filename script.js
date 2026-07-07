@@ -2,7 +2,5 @@
 document.addEventListener("DOMContentLoaded",display)
 function display()
 {
-	let text=document.createElement("p")
-	text.textContent="DOM load success"
-	document.body.appendChild(text)
+	document.body.innerText = "DOM load success";
 }
